@@ -2,7 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import AdSlot from '../../components/AdSlot.astro';
-import { SITE, COUPANG_DISCLOSURE } from '../../consts';
+import { SITE, COUPANG_DISCLOSURE, ADSENSE_SLOT_POST } from '../../consts';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts', ({ data }) => !data.draft);
@@ -39,6 +39,6 @@ const jsonLd = {
     <div class="prose">
       <Content />
     </div>
-    <AdSlot slot="0000000000" />
+    <AdSlot slot={ADSENSE_SLOT_POST} />
   </article>
 </Base>

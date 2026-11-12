@@ -39,7 +39,7 @@ npm run dev
 
 - 빌드 명령: `npm run build`
 - 출력 폴더: `dist`
-- 환경 변수(선택): `PUBLIC_ADSENSE_CLIENT` — 애드센스 승인 후 `ca-pub-...` 값을 넣으면 광고 자리가 켜진다.
+- 애드센스 게시자 ID는 `src/consts.ts` 에 들어 있다. 광고 단위를 만들면 같은 파일의 `ADSENSE_SLOT_POST` 에 슬롯 ID를 넣는다.
 
 ## 주의
 

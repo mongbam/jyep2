@@ -1,16 +1,16 @@
 ---
-// 애드센스 광고 자리. PUBLIC_ADSENSE_CLIENT 환경 변수가 없으면 아무것도 그리지 않는다.
+// 애드센스 광고 자리. 슬롯 ID 가 없으면 아무것도 그리지 않는다.
 import { ADSENSE_CLIENT } from '../consts';
 
 interface Props {
-  slot: string;
+  slot?: string;
 }
 
 const { slot } = Astro.props;
 ---
 
 {
-  ADSENSE_CLIENT && (
+  ADSENSE_CLIENT && slot && (
     <div class="ad-slot">
       <ins
         class="adsbygoogle"

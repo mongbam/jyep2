@@ -6,8 +6,12 @@ export const SITE = {
   lang: 'ko',
 };
 
-// 애드센스 승인 후 Cloudflare Pages 환경 변수에 PUBLIC_ADSENSE_CLIENT (예: ca-pub-0000000000000000) 를 넣으면 광고 자리가 켜진다.
-export const ADSENSE_CLIENT: string | undefined = import.meta.env.PUBLIC_ADSENSE_CLIENT;
+// 애드센스 게시자 ID. 공개 값이다. 모든 페이지의 <head> 에 애드센스 코드가 들어간다.
+export const ADSENSE_CLIENT: string | undefined =
+  import.meta.env.PUBLIC_ADSENSE_CLIENT ?? 'ca-pub-1678466552354015';
+
+// 글 본문 아래 광고 단위의 슬롯 ID. 애드센스에서 광고 단위를 만든 뒤 숫자를 넣으면 광고 자리가 켜진다.
+export const ADSENSE_SLOT_POST: string | undefined = undefined;
 
 export const COUPANG_DISCLOSURE =
   '이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.';
