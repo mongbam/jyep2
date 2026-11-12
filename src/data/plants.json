@@ -1,0 +1,80 @@
+[
+  {
+    "id": "anubias-nana-petite",
+    "nameKo": "아누비아스 나나 쁘띠",
+    "scientificName": "Anubias barteri var. nana 'Petite'",
+    "type": "착생",
+    "placement": ["착생", "수중", "수상"],
+    "light": "낮음",
+    "co2": "불필요",
+    "difficulty": "쉬움",
+    "growth": "느림",
+    "summary": "돌이나 유목에 묶어 키우는 소형 착생 수초. 뿌리줄기를 바닥재에 묻으면 썩기 쉽다.",
+    "measured": { "par": null, "weeksToEstablish": null, "note": null }
+  },
+  {
+    "id": "microsorum-pteropus",
+    "nameKo": "미크로소리움 (자바펀)",
+    "scientificName": "Microsorum pteropus",
+    "type": "착생",
+    "placement": ["착생", "수중", "수상"],
+    "light": "낮음",
+    "co2": "불필요",
+    "difficulty": "쉬움",
+    "growth": "느림",
+    "summary": "약한 빛에서도 버티는 양치류 착생 수초. 뿌리줄기를 돌이나 유목에 고정해 키운다.",
+    "measured": { "par": null, "weeksToEstablish": null, "note": null }
+  },
+  {
+    "id": "bucephalandra",
+    "nameKo": "부세파란드라",
+    "scientificName": "Bucephalandra sp.",
+    "type": "착생",
+    "placement": ["착생", "수중", "수상"],
+    "light": "낮음",
+    "co2": "불필요",
+    "difficulty": "쉬움",
+    "growth": "느림",
+    "summary": "물살이 있는 돌 표면에 붙어 자라는 착생 수초. 환경이 급하게 바뀌면 잎이 녹을 수 있다.",
+    "measured": { "par": null, "weeksToEstablish": null, "note": null }
+  },
+  {
+    "id": "willow-moss",
+    "nameKo": "윌로모스",
+    "scientificName": "Fontinalis antipyretica",
+    "type": "이끼",
+    "placement": ["착생", "수중"],
+    "light": "낮음",
+    "co2": "불필요",
+    "difficulty": "쉬움",
+    "growth": "보통",
+    "summary": "돌이나 유목에 감아 키우는 이끼류. 낮은 수온을 좋아한다.",
+    "measured": { "par": null, "weeksToEstablish": null, "note": null }
+  },
+  {
+    "id": "monte-carlo",
+    "nameKo": "몬테카를로",
+    "scientificName": "Micranthemum tweediei 'Monte Carlo'",
+    "type": "전경",
+    "placement": ["수중", "수상"],
+    "light": "보통",
+    "co2": "권장",
+    "difficulty": "보통",
+    "growth": "보통",
+    "summary": "바닥을 덮는 전경 수초. 물 위 젖은 소일에서도 잘 자란다.",
+    "measured": { "par": null, "weeksToEstablish": null, "note": null }
+  },
+  {
+    "id": "cryptocoryne-wendtii",
+    "nameKo": "크립토코리네 웬티",
+    "scientificName": "Cryptocoryne wendtii",
+    "type": "중경",
+    "placement": ["수중"],
+    "light": "낮음",
+    "co2": "불필요",
+    "difficulty": "쉬움",
+    "growth": "느림",
+    "summary": "소일에 심는 중경 수초. 옮겨 심은 직후 잎이 녹는 일이 흔하지만 뿌리가 살아 있으면 다시 올라온다.",
+    "measured": { "par": null, "weeksToEstablish": null, "note": null }
+  }
+]

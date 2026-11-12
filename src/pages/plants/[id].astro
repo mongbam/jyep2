@@ -1,0 +1,65 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const plants = await getCollection('plants');
+  return plants.map((plant) => ({ params: { id: plant.data.id }, props: { plant } }));
+}
+
+const { plant } = Astro.props;
+const p = plant.data;
+const m = p.measured;
+const hasMeasured = m.par !== null || m.weeksToEstablish !== null || m.note !== null;
+---
+
+<Base title={p.nameKo} description={`${p.nameKo} 재배 조건: 광량 ${p.light}, CO2 ${p.co2}, 난이도 ${p.difficulty}.`}>
+  <p class="meta"><a href="/plants/">수초 데이터</a></p>
+  <h1>{p.nameKo}</h1>
+  <p class="meta"><em>{p.scientificName}</em></p>
+  <p>{p.summary}</p>
+
+  <h2>재배 조건</h2>
+  <dl class="spec">
+    <dt>분류</dt>
+    <dd>{p.type}</dd>
+    <dt>심는 위치</dt>
+    <dd>{p.placement.join(', ')}</dd>
+    <dt>광량</dt>
+    <dd>{p.light}</dd>
+    <dt>CO2</dt>
+    <dd>{p.co2}</dd>
+    <dt>난이도</dt>
+    <dd>{p.difficulty}</dd>
+    <dt>성장 속도</dt>
+    <dd>{p.growth}</dd>
+  </dl>
+
+  <h2>직접 잰 값</h2>
+  {
+    hasMeasured ? (
+      <dl class="spec">
+        {m.par !== null && (
+          <>
+            <dt>PAR</dt>
+            <dd>{m.par} µmol/m²/s</dd>
+          </>
+        )}
+        {m.weeksToEstablish !== null && (
+          <>
+            <dt>자리 잡는 기간</dt>
+            <dd>{m.weeksToEstablish}주</dd>
+          </>
+        )}
+        {m.note !== null && (
+          <>
+            <dt>메모</dt>
+            <dd>{m.note}</dd>
+          </>
+        )}
+      </dl>
+    ) : (
+      <p class="notice">아직 측정 전입니다. 직접 키우며 잰 값이 생기면 이 자리에 추가합니다.</p>
+    )
+  }
+</Base>
