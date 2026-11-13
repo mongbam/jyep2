@@ -4,77 +4,399 @@
     "nameKo": "아누비아스 나나 쁘띠",
     "scientificName": "Anubias barteri var. nana 'Petite'",
     "type": "착생",
-    "placement": ["착생", "수중", "수상"],
+    "placement": [
+      "착생",
+      "수중",
+      "수상"
+    ],
     "light": "낮음",
     "co2": "불필요",
     "difficulty": "쉬움",
     "growth": "느림",
     "summary": "돌이나 유목에 묶어 키우는 소형 착생 수초. 뿌리줄기를 바닥재에 묻으면 썩기 쉽다.",
-    "measured": { "par": null, "weeksToEstablish": null, "note": null }
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
   },
   {
     "id": "microsorum-pteropus",
     "nameKo": "미크로소리움 (자바펀)",
     "scientificName": "Microsorum pteropus",
     "type": "착생",
-    "placement": ["착생", "수중", "수상"],
+    "placement": [
+      "착생",
+      "수중",
+      "수상"
+    ],
     "light": "낮음",
     "co2": "불필요",
     "difficulty": "쉬움",
     "growth": "느림",
     "summary": "약한 빛에서도 버티는 양치류 착생 수초. 뿌리줄기를 돌이나 유목에 고정해 키운다.",
-    "measured": { "par": null, "weeksToEstablish": null, "note": null }
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
   },
   {
     "id": "bucephalandra",
     "nameKo": "부세파란드라",
     "scientificName": "Bucephalandra sp.",
     "type": "착생",
-    "placement": ["착생", "수중", "수상"],
+    "placement": [
+      "착생",
+      "수중",
+      "수상"
+    ],
     "light": "낮음",
     "co2": "불필요",
     "difficulty": "쉬움",
     "growth": "느림",
     "summary": "물살이 있는 돌 표면에 붙어 자라는 착생 수초. 환경이 급하게 바뀌면 잎이 녹을 수 있다.",
-    "measured": { "par": null, "weeksToEstablish": null, "note": null }
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
   },
   {
     "id": "willow-moss",
     "nameKo": "윌로모스",
     "scientificName": "Fontinalis antipyretica",
     "type": "이끼",
-    "placement": ["착생", "수중"],
+    "placement": [
+      "착생",
+      "수중"
+    ],
     "light": "낮음",
     "co2": "불필요",
     "difficulty": "쉬움",
     "growth": "보통",
     "summary": "돌이나 유목에 감아 키우는 이끼류. 낮은 수온을 좋아한다.",
-    "measured": { "par": null, "weeksToEstablish": null, "note": null }
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
   },
   {
     "id": "monte-carlo",
     "nameKo": "몬테카를로",
     "scientificName": "Micranthemum tweediei 'Monte Carlo'",
     "type": "전경",
-    "placement": ["수중", "수상"],
+    "placement": [
+      "수중",
+      "수상"
+    ],
     "light": "보통",
     "co2": "권장",
     "difficulty": "보통",
     "growth": "보통",
     "summary": "바닥을 덮는 전경 수초. 물 위 젖은 소일에서도 잘 자란다.",
-    "measured": { "par": null, "weeksToEstablish": null, "note": null }
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
   },
   {
     "id": "cryptocoryne-wendtii",
     "nameKo": "크립토코리네 웬티",
     "scientificName": "Cryptocoryne wendtii",
     "type": "중경",
-    "placement": ["수중"],
+    "placement": [
+      "수중"
+    ],
     "light": "낮음",
     "co2": "불필요",
     "difficulty": "쉬움",
     "growth": "느림",
     "summary": "소일에 심는 중경 수초. 옮겨 심은 직후 잎이 녹는 일이 흔하지만 뿌리가 살아 있으면 다시 올라온다.",
-    "measured": { "par": null, "weeksToEstablish": null, "note": null }
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
+  },
+  {
+    "id": "taxiphyllum-barbieri",
+    "nameKo": "자바모스",
+    "scientificName": "Taxiphyllum barbieri",
+    "type": "이끼",
+    "placement": [
+      "착생",
+      "수중",
+      "수상"
+    ],
+    "light": "낮음",
+    "co2": "불필요",
+    "difficulty": "쉬움",
+    "growth": "보통",
+    "summary": "돌과 유목에 감아 키우는 대표적인 이끼. 약한 빛에서도 자라고, 물이 계속 닿는 곳이면 물 밖에서도 버틴다.",
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
+  },
+  {
+    "id": "vesicularia-montagnei",
+    "nameKo": "크리스마스모스",
+    "scientificName": "Vesicularia montagnei",
+    "type": "이끼",
+    "placement": [
+      "착생",
+      "수중",
+      "수상"
+    ],
+    "light": "보통",
+    "co2": "권장",
+    "difficulty": "보통",
+    "growth": "느림",
+    "summary": "잎이 삼각형으로 겹쳐 아래로 늘어지는 이끼. 자바모스보다 모양이 단정하지만 자리 잡는 데 시간이 걸린다.",
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
+  },
+  {
+    "id": "eleocharis-parvula",
+    "nameKo": "쇼트 헤어그라스",
+    "scientificName": "Eleocharis parvula",
+    "type": "전경",
+    "placement": [
+      "수중",
+      "수상"
+    ],
+    "light": "보통",
+    "co2": "권장",
+    "difficulty": "보통",
+    "growth": "보통",
+    "summary": "가는 잎이 잔디처럼 퍼지는 전경 수초. 몇 가닥씩 나눠 촘촘히 심으면 러너로 번진다.",
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
+  },
+  {
+    "id": "hemianthus-cuba",
+    "nameKo": "쿠바펄",
+    "scientificName": "Hemianthus callitrichoides 'Cuba'",
+    "type": "전경",
+    "placement": [
+      "수중",
+      "수상"
+    ],
+    "light": "높음",
+    "co2": "필수",
+    "difficulty": "어려움",
+    "growth": "보통",
+    "summary": "잎이 가장 작은 축에 드는 전경 수초. 강한 빛과 CO2가 없으면 떠오르거나 녹기 쉽다.",
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
+  },
+  {
+    "id": "staurogyne-repens",
+    "nameKo": "스타우로기네 레펜스",
+    "scientificName": "Staurogyne repens",
+    "type": "전경",
+    "placement": [
+      "수중",
+      "수상"
+    ],
+    "light": "보통",
+    "co2": "권장",
+    "difficulty": "보통",
+    "growth": "느림",
+    "summary": "키가 낮고 잎이 넓은 전경, 중경 수초. 윗순을 잘라 다시 심으면 옆으로 퍼진다.",
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
+  },
+  {
+    "id": "micranthemum-micranthemoides",
+    "nameKo": "펄그라스",
+    "scientificName": "Hemianthus micranthemoides",
+    "type": "중경",
+    "placement": [
+      "수중",
+      "수상"
+    ],
+    "light": "보통",
+    "co2": "권장",
+    "difficulty": "보통",
+    "growth": "빠름",
+    "summary": "작은 잎이 줄기에 촘촘히 달리는 유경 수초. 자주 다듬으면 덤불 모양이 된다.",
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
+  },
+  {
+    "id": "rotala-rotundifolia",
+    "nameKo": "로탈라 로툰디폴리아",
+    "scientificName": "Rotala rotundifolia",
+    "type": "후경",
+    "placement": [
+      "수중",
+      "수상"
+    ],
+    "light": "보통",
+    "co2": "권장",
+    "difficulty": "쉬움",
+    "growth": "빠름",
+    "summary": "빛이 강할수록 붉어지는 후경 유경 수초. 물 밖에서는 잎이 둥글고, 물속에서는 가늘어진다.",
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
+  },
+  {
+    "id": "ludwigia-repens",
+    "nameKo": "루드위지아 레펜스",
+    "scientificName": "Ludwigia repens",
+    "type": "후경",
+    "placement": [
+      "수중",
+      "수상"
+    ],
+    "light": "보통",
+    "co2": "권장",
+    "difficulty": "쉬움",
+    "growth": "빠름",
+    "summary": "잎 뒷면이 붉은 유경 수초. 붉은 수초 가운데 키우기 쉬운 편이다.",
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
+  },
+  {
+    "id": "hygrophila-polysperma",
+    "nameKo": "하이그로필라 폴리스퍼마",
+    "scientificName": "Hygrophila polysperma",
+    "type": "후경",
+    "placement": [
+      "수중",
+      "수상"
+    ],
+    "light": "낮음",
+    "co2": "불필요",
+    "difficulty": "쉬움",
+    "growth": "빠름",
+    "summary": "조건을 거의 가리지 않고 빨리 자라는 유경 수초. 초기 세팅에서 영양분을 흡수해 이끼를 줄이는 용도로 쓴다.",
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
+  },
+  {
+    "id": "vallisneria-spiralis",
+    "nameKo": "발리스네리아 스피랄리스",
+    "scientificName": "Vallisneria spiralis",
+    "type": "후경",
+    "placement": [
+      "수중"
+    ],
+    "light": "낮음",
+    "co2": "불필요",
+    "difficulty": "쉬움",
+    "growth": "빠름",
+    "summary": "리본 모양 잎이 수면까지 자라는 후경 수초. 러너로 번지며, 물 밖에서는 자라지 못한다.",
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
+  },
+  {
+    "id": "echinodorus-bleheri",
+    "nameKo": "아마존 소드",
+    "scientificName": "Echinodorus grisebachii 'Bleherae'",
+    "type": "후경",
+    "placement": [
+      "수중",
+      "수상"
+    ],
+    "light": "보통",
+    "co2": "불필요",
+    "difficulty": "쉬움",
+    "growth": "보통",
+    "summary": "넓은 잎이 방사형으로 퍼지는 대형 수초. 뿌리가 크게 자라므로 바닥재 영양이 중요하다.",
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
+  },
+  {
+    "id": "egeria-densa",
+    "nameKo": "검정말 (아나카리스)",
+    "scientificName": "Egeria densa",
+    "type": "후경",
+    "placement": [
+      "수중"
+    ],
+    "light": "보통",
+    "co2": "불필요",
+    "difficulty": "쉬움",
+    "growth": "빠름",
+    "summary": "찬물에서도 잘 자라는 유경 수초. 심어도 되고 띄워 둬도 된다.",
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
+  },
+  {
+    "id": "ceratophyllum-demersum",
+    "nameKo": "붕어마름",
+    "scientificName": "Ceratophyllum demersum",
+    "type": "부상",
+    "placement": [
+      "수중"
+    ],
+    "light": "낮음",
+    "co2": "불필요",
+    "difficulty": "쉬움",
+    "growth": "빠름",
+    "summary": "뿌리 없이 물속에 떠서 자라는 수초. 심지 않고 띄워 두거나 돌에 걸쳐 둔다.",
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
+  },
+  {
+    "id": "limnobium-laevigatum",
+    "nameKo": "아마존 프로그비트",
+    "scientificName": "Limnobium laevigatum",
+    "type": "부상",
+    "placement": [
+      "수상"
+    ],
+    "light": "보통",
+    "co2": "불필요",
+    "difficulty": "쉬움",
+    "growth": "빠름",
+    "summary": "둥근 잎이 수면에 뜨는 부상 수초. 물살이 세거나 잎 윗면이 젖으면 녹기 쉽다.",
+    "measured": {
+      "par": null,
+      "weeksToEstablish": null,
+      "note": null
+    }
   }
 ]
