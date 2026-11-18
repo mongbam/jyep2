@@ -1,6 +1,6 @@
 export const SITE = {
-  name: 'jyep2',
-  title: 'jyep2 · 수초 어항 기록',
+  name: '무스고 노트',
+  title: '무스고 노트 · 수초 어항 기록',
   description: '수초와 레이아웃을 직접 키우며 잰 값으로 정리하는 수초 어항 블로그.',
   url: 'https://jyep2.com',
   lang: 'ko',
