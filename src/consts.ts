@@ -10,6 +10,10 @@ export const SITE = {
 export const ADSENSE_CLIENT: string | undefined =
   import.meta.env.PUBLIC_ADSENSE_CLIENT ?? 'ca-pub-1678466552354015';
 
+// Google 애널리틱스 4 측정 ID. 공개 값이다. 모든 페이지에서 방문 통계를 보낸다.
+export const GA_MEASUREMENT_ID: string | undefined =
+  import.meta.env.PUBLIC_GA_ID ?? 'G-VNYSY0YV26';
+
 // 글 본문 아래 광고 단위의 슬롯 ID. 애드센스에서 광고 단위를 만든 뒤 숫자를 넣으면 광고 자리가 켜진다.
 export const ADSENSE_SLOT_POST: string | undefined = undefined;
 
