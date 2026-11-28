@@ -86,3 +86,15 @@ tr:last-child td { border-bottom: 0; }
 
 .site-footer { border-top: 1px solid var(--line); padding: 1.5rem 0 2.5rem; color: var(--muted); font-size: 0.875rem; }
 .site-footer a { color: var(--muted); margin-right: 1rem; }
+
+.post-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin: 2.5rem 0 0.75rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+.post-nav-link { display: flex; flex-direction: column; gap: 0.3rem; padding: 0.9rem 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: 0.75rem; text-decoration: none; color: inherit; min-height: 100%; }
+.post-nav-link:hover { border-color: var(--accent); }
+.post-nav-link.next { text-align: right; }
+.post-nav-label { color: var(--accent); font-size: 0.85rem; font-weight: 600; }
+.post-nav-title { color: var(--text); font-size: 0.95rem; line-height: 1.45; }
+.post-nav-all { text-align: center; font-size: 0.9rem; margin: 0.5rem 0 0; }
+@media (max-width: 520px) {
+  .post-nav { grid-template-columns: 1fr; }
+  .post-nav-link.next { text-align: left; }
+}
